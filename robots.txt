@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+
+# Block scrapers
+User-agent: SemrushBot
+Disallow: /
+
+Sitemap: https://abache.site/sitemap.xml
